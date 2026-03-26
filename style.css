@@ -219,6 +219,15 @@ h3 {
   filter: drop-shadow(0 0 5px rgba(59,130,246,0.5));
 }
 
+/* Text */
+.skill p {
+  font-size: 18px;   
+  font-weight: 600;   
+  color: #ffffff;     
+  margin-top: 10px;   
+  letter-spacing: 0.5px; 
+}
+
 /* ================= PROJECT ================= */
 .projects-container {
   display: grid;
