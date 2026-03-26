@@ -181,7 +181,7 @@ h3 {
 /* ================= SKILLS ================= */
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
   gap: 15px;
   padding: 20px 10%;
 }
@@ -189,7 +189,7 @@ h3 {
 .skill {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   transition: 0.3s;
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
@@ -221,7 +221,7 @@ h3 {
 
 /* Text */
 .skill p {
-  font-size: 18px;   
+  font-size: 12px;   
   font-weight: 600;   
   color: #ffffff;     
   margin-top: 10px;   
