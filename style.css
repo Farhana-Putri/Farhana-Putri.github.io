@@ -76,7 +76,7 @@ nav a {
 }
 
 .nav-menu li a {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   opacity: 0.8;
   transition: 0.3s;
@@ -116,8 +116,9 @@ nav a {
 }
 
 .hero p {
-  font-size: 20px;
-  color: #ffffff;
+  font-size: 18px;
+  color: white;
+  opacity: 0.8;
   margin-top: 15px;
 }
 
@@ -223,7 +224,8 @@ h3 {
 .skill h3 {
   font-size: 12px;    
   font-weight: 600;   
-  color: #ffffff;    
+  color: white;  
+  
   margin: 10px 0 0;   
   letter-spacing: 0.5px; 
   text-transform: none; 
