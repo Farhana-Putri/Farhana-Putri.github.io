@@ -55,7 +55,7 @@
 <section id="skills">
   <h2 data-aos="fade-up"> <i class="fas fa-code"></i> SKILLS <i class="fas fa-code"></i> </h2>
 
-  <div class="skills-container">
+  <div class="skills-container show-less" id="skillsList">
 
     <div class="skill" data-aos="zoom-in">
       <div class="skill-icon">
@@ -129,66 +129,105 @@
 
     <div class="skill" data-aos="zoom-in">
       <div class="skill-icon">
+    <img src="images/survey-logo.png" alt="">
+        </div>
+    <h3>Survey</h3>
+    </div>
+
+    <div class="skill" data-aos="zoom-in">
+      <div class="skill-icon">
+    <img src="images/modeling-logo.png" alt="">
+        </div>
+    <h3>Data Modeling</h3>
+    </div>
+
+    <div class="skill hidden" data-aos="zoom-in">
+      <div class="skill-icon">
+    <img src="images/visualization-logo.png" alt="">
+        </div>
+    <h3>Data Visualization</h3>
+    </div>
+
+    <div class="skill hidden" data-aos="zoom-in">
+      <div class="skill-icon">
     <img src="images/initiative-logo.png" alt="">
         </div>
     <h3>Initiative</h3>
     </div>
 
-    <div class="skill" data-aos="zoom-in">
+    <div class="skill hidden" data-aos="zoom-in">
       <div class="skill-icon">
     <img src="images/attention-logo.png" alt="">
         </div>
     <h3>Attention to Detail</h3>
     </div>
 
-    <div class="skill" data-aos="zoom-in">
+    <div class="skill hidden" data-aos="zoom-in">
       <div class="skill-icon">
     <img src="images/communication-logo.png" alt="">
         </div>
     <h3>Communication</h3>
     </div>
 
-    <div class="skill" data-aos="zoom-in">
+    <div class="skill hidden" data-aos="zoom-in">
       <div class="skill-icon">
     <img src="images/teamwork-logo.png" alt="">
         </div>
     <h3>Teamwork</h3>
     </div>
+
+    <div class="skill hidden" data-aos="zoom-in">
+      <div class="skill-icon">
+    <img src="images/eo-logo.png" alt="">
+        </div>
+    <h3>Event Organization</h3>
+    </div>
     
   </div>
+    <button class="show-btn" onclick="toggleShow('skillsList', this)">
+  Show More
+</button>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
   <h2 data-aos="fade-up"><i class="fas fa-folder"></i> PROJECTS <i class="fas fa-folder"></i> </h2>
 
-  <div class="projects-container">
+  <div class="projects-container show-less" id="projectsList">
 
     <div class="project-card" data-aos="zoom-in">
       <img src="images/excel.png">
       <h3>Coffee Sales Analysis using Excel</h3>
-      <a href="https://drive.google.com/file/d/1gThOTr8ex1gCBpLev0-6sn4A1MHr4oZU/view?usp=drive_link" target="_blank">view</a>
+      <a href="https://drive.google.com/file/d/1gThOTr8ex1gCBpLev0-6sn4A1MHr4oZU/view?usp=drive_link" target="_blank" class="project-link">
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
       <p>The project involved data cleaning, applying Excel functions, building Pivot Tables, & developing an interactive dashboard. </p>
     </div>
 
     <div class="project-card" data-aos="zoom-in">
       <img src="images/ml.png">
       <h3>Identifying Key Sales using Machine Learning</h3>
-      <a href="https://farhana-putri.github.io/FP-Coffee-Sales-Analysis/" target="_blank">view</a>
+      <a href="https://farhana-putri.github.io/FP-Coffee-Sales-Analysis/" target="_blank" class="project-link">
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
       <p>Identify the features that most influence net sales to optimize inventory & promotion strategies. </p>
     </div>
 
     <div class="project-card" data-aos="zoom-in">
       <img src="images/sql.png">
       <h3>Northwind Traders Performance Analysis </h3>
-      <a href="https://github.com/Farhana-Putri/FP-Northwind-SQL-Analysis" target="_blank">view</a>
+      <a href="https://github.com/Farhana-Putri/FP-Northwind-SQL-Analysis" target="_blank"   class="project-link">
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
       <p>Performed SQL analysis on the Northwind dataset to explore sales performance, customer insights, & product trends. </p>
     </div>
 
     <div class="project-card" data-aos="zoom-in">
       <img src="images/dashboard.png">
       <h3>Forecast Dashboard</h3>
-      <a href="https://interactivedashboardbyhana.shinyapps.io/PERAMALANEKONOMIBANTUL/" target="_blank">view</a>
+      <a href="https://interactivedashboardbyhana.shinyapps.io/PERAMALANEKONOMIBANTUL/" target="_blank" class="project-link">
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
       <p>Select variables, forecasting methods, & projection periods. 
         The system generates projected trends, MAPE accuracy scores, & forecast values dynamically.</p>
     </div>
@@ -196,18 +235,26 @@
     <div class="project-card" data-aos="zoom-in">
       <img src="images/infographics.png">
       <h3>Macroeconomic Overview Visualization</h3>
-      <a href="https://www.instagram.com/bappedabantul/reel/DLoJq-YtZ7o/" target="_blank">view</a>
+      <a href="https://www.instagram.com/bappedabantul/reel/DLoJq-YtZ7o/" target="_blank" class="project-link">
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
       <p>Produced a data visualization video presenting key macroeconomic indicators of Bantul Regency.</p>
     </div>
 
     <div class="project-card" data-aos="zoom-in">
       <img src="images/article.png">
       <h3>Analisis Rasio Gini Kabupaten Bantul Menggunakan Metode DES </h3>
-      <a href="https://drive.google.com/file/d/1v-4y-Uu2ZWkCPmEXpgpOgBaYKJ7b-nha/view?usp=drive_link" target="_blank">view</a>
+      <a href="https://drive.google.com/file/d/1v-4y-Uu2ZWkCPmEXpgpOgBaYKJ7b-nha/view?usp=drive_link" target="_blank" class="project-link">
+        <i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
       <p>Predicted income inequality trends in Bantul Regency with 5-year projection (MAPE = 7.56%). </p>
     </div>
 
   </div>
+  
+  <button class="show-btn" onclick="toggleShow('projectsList', this)">
+  Show More
+</button>
 </section>
 
 <!-- EXPERIENCE -->
@@ -220,8 +267,8 @@
       <h3>BAPPEDA Kabupaten Bantul (2025)</h3>
       <h4>Data Analyst & Administrative Support Intern</h4>
       <p>
-        Verified regional development data & supported macroeconomic reports. 
-        Assisted administrative tasks including documentation & meeting records.
+        Conducted data validation, supported macroeconomic analysis, & managed administrative tasks 
+        to ensure data accuracy & support effective regional planning.
       </p>
     </div>
 
@@ -229,8 +276,8 @@
       <h3>DD Coffee Shop (2024)</h3>
       <h4>Market Research (Project-Based)</h4>
       <p>
-        Conducted customer satisfaction analysis using IPA & CSI methods 
-        to generate actionable insights for service improvement.
+        Collected & analyzed customer survey data using statistical methods to identify 
+        service improvement areas & enhance customer satisfaction.
       </p>
     </div>
 
@@ -238,8 +285,8 @@
       <h3>GERIGI ITS (2023)</h3>
       <h4>Mentor Staff</h4>
       <p>
-        Guided 17 new students during orientation & supported event coordination 
-        to ensure smooth program execution.
+        Guided new students during orientation by providing academic & social support, 
+        contributing to a smoother adaptation process.
       </p>
     </div>
 
@@ -261,9 +308,8 @@
     <i class="fas fa-medal"></i> CERTIFICATION <i class="fas fa-medal"></i>
   </h2>
 
-  <div class="cert-slider">
-    <div class="cert-track">
-
+  <div class="cert-container show-less" id=certList">
+  
       <div class="cert-card">
         <img src="images/fundamental-deep-learning.jpg">
       </div>
@@ -281,15 +327,23 @@
       </div>
 
       <div class="cert-card">
-        <img src="images/betakastrat.jpg">
-      </div>
-
-      <div class="cert-card">
         <img src="images/gerigi-its.jpg">
       </div>
 
-      <div class="cert-card">
+      <div class="cert-card hidden-cert">
         <img src="images/ukm-penalaran.jpg">
+      </div>
+
+      <div class="cert-card hidden-cert">
+        <img src="images/pkti-td.jpg">
+      </div>
+
+      <div class="cert-card hidden-cert">
+        <img src="images/betakastrat.jpg">
+      </div>
+
+      <div class="cert-card hidden-cert">
+        <img src="images/p3m.jpg">
       </div>
 
       <div class="cert-card">
@@ -297,7 +351,10 @@
       </div>
 
     </div>
-  </div>
+
+<button class="show-btn" onclick="toggleShow('certList', this)">
+  Show More
+</button>
 </section>
 
 <!-- CONTACT -->
@@ -359,5 +416,20 @@ type();
 
 </script>
 
+<script>
+  function toggleShow(id, btn){
+  const el = document.getElementById(id);
+
+  if(el.classList.contains("show-less")){
+    el.classList.remove("show-less");
+    btn.textContent = "Show Less";
+  } else {
+    el.classList.add("show-less");
+    btn.textContent = "Show More";
+  }
+}
+</script>
+  
 </body>
+  
 </html>
