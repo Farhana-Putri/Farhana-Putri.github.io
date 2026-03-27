@@ -43,12 +43,6 @@ section {
   margin-bottom: 80px;
 }
 
-.show-less .skill:nth-child(n+9),
-.show-less .project-card:nth-child(n+5),
-.show-less .cert-card:nth-child(n+7) {
-  display: none;
-}
-
 /* BUTTON */
 .show-btn {
   display: block;
@@ -65,6 +59,10 @@ section {
 .show-btn:hover {
   background: #2563eb;
   box-shadow: 0 0 15px #3b82f6;
+}
+
+.hidden-item {
+  display: none;
 }
 
 /* ================= NAVBAR ================= */
